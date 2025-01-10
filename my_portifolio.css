@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: linear-gradient(grey, rgb(105, 43, 43));
+    color: white;
+    margin-inline: auto;
+}
+
+header {
+    background-color: #333;
+}
+
+.Projects {
+    display: flex;
+    margin-right: 5%;
+    margin-left: 5%;
+    width: 90%;
+    height: 60%;
+    /* background-color: dodgerblue; */
+}
+
+/* .project-content {
+    margin-left: 10px;
+} */
+
+.project-content {
+    width: 50%;
+    height: 100%;
+    margin-right: auto;
+    background-color: yellow;
+}
+
+.project-cover {
+    /* background-image: url("\Registration\blue-code-background.jpg");  tried to use background-image instead of image*/
+    width: 40%;
+    height: 100%;
+}
+
+/* .navigation {
+    display: inline-flex;
+    list-style: none;
+    padding-left: 10rem;
+    padding-right: 10rem;
+} */
+
+/* .nav-menu {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+    height: auto;
+    border-bottom: 1px solid #ccc;
+} */
+
+/* ul {
+    display: flexbox;
+    width: 30%;
+    text-align: center;
+    padding: 10px;
+    border-right: 1px solid #ccc;
+} */
+
+/* .navigation:last-child {
+    border-right: none;
+} */
+
+.img {
+    width: 100%;
+    height: 100%;
+}
+
+/* li {
+    list-style-type: square; 
+} */
+
+a {
+    text-decoration: none;
+}
+
+button {
+    background-color: red;
+    padding: 10px;
+    border: none;
+}
+
+.profile-pics {
+    border: 10px solid white;
+    border-radius: 50%;
+    float: left;
+}
