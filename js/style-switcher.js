@@ -14,14 +14,14 @@ window.addEventListener("scroll", () => {
 /* ================== theme color ================ */
 const alternateStyles = document.querySelectorAll(".alternate-style");
 function setActiveStyle(color) {
-    alternateStyles.forEach(style) => {
+    alternateStyles.forEach((style) => {
         if(color === style.getAttribute("title")) {
             style.removeAttribute("disabled");
         }
         else {
-            style.removeAttribute("disabled", "true" );
+            style.setAttribute("disabled", "true" );
         }
-    }
+    })
 }
 
 /* =============== theme light and dark mode =============== */
